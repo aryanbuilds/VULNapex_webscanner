@@ -1,47 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>VULNapex</title>
-        <style>
-            body {
-                background: linear-gradient(to bottom, #000000, #1a1a1a);
-                color: gold;
-                font-family: Arial, sans-serif;
-            }
-            .result-container {
-                padding: 20px;
-                margin: 20px;
-                border: 1px solid white;
-            }
-            .result-line {
-                margin-bottom: 10px;
-            }
-            .blue-text {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VULNapex</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #000000, #1a1a1a);
+            color: gold;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden; /* Hide horizontal overflow */
+        }
+        .background-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(to bottom, #000000, #1a1a1a);
+            animation: bgAnimation 10s ease-in-out infinite alternate;
+        }
+        .result-container {
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid white;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .result-line {
+            margin-bottom: 10px;
+        }
+        .blue-text {
             color: rgb(22, 171, 216);
         }
-        </style>
-    </head>
-    <body>
-        <div class="result-container">
-            <h1>Web Vulnerability Scanner Report</h1>
-            <h2>Report</h2>
-            <div>
-                {% for line in tool_output_lines %}
-                    {% if '[+]' in line %}
-                        <p class="blue-text">{{ line }}</p>
-                    {% else %}
-                        <p>{{ line }}</p>
-                    {% endif %}
-                {% endfor %}
-            </div>
-            <h2>Solutions</h2>
-            <ul>
-                {% for solution in solutions %}
-                <li>{{ solution }}</li>
-                {% endfor %}
-            </ul>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes bgAnimation {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="result-container">
+        <h1>VULNapex</h1>
+        <h2>Report</h2>
+        <div>
+            {% for line in tool_output_lines %}
+                {% if '[+]' in line %}
+                    <p class="blue-text">{{ line }}</p>
+                {% else %}
+                    <p>{{ line }}</p>
+                {% endif %}
+            {% endfor %}
         </div>
-    </body>
-    </html>
+        <h2>Solutions</h2>
+        <ul>
+            {% for solution in solutions %}
+            <li>{{ solution }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
