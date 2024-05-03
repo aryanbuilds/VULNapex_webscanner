@@ -38,4 +38,3 @@ class consultantAI:
             else:
                 print("An error occurred:", e)
             return None
-
