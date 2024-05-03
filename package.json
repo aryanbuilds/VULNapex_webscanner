@@ -8,7 +8,7 @@
   "main": "tailwind.config.js",
   
   "scripts": {
-    "build":"npx tailwindcss -i ./templates/input.css -o ./templates/output.css --watch"
+    "build":"npx tailwindcss -i ./templates/input.css -o ./templates/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
