@@ -16,7 +16,7 @@ class consultantAI:
         # Build the API request
         api_request_json = {
             "messages": [
-                {"role": "user", "content": "your a web security consultant give solutions and feedback give answer in a minimized adn organized way alwyas use icons  "},
+                {"role": "user", "content": "your a web security consultant give solutions and analyzing and giving feedback answer in a minimized adn organized way alwyas use icons  "},
                 {"role": "user", "content": prompt},  # Add the prompt to the messages
 
             ],

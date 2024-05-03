@@ -1,0 +1,28 @@
+https://www.cisco.com
+[+]Encoded URL: https://www.cisco.com/
+[+]Allowed methods: OPTIONS, TRACE, GET, HEAD
+[+]NO Certificate information: 
+[+] robots.txt is available
+ [+] HTTP headers: 
+ {'x-frame-options': 'SAMEORIGIN', 'x-vhost': 'publish', 'Content-Type': 'text/html;charset=utf-8', 'X-Content-Type-Options': 'nosniff', 'Accept-Ranges': 'bytes', 'X-Served-By': 'cache-iad-kiad7000090-IAD', 'X-Timer': 'S1714731360.106618,VS0,VS0,VE2', 'X-EdgeConnect-MidMile-RTT': '0', 'X-EdgeConnect-Origin-MEX-Latency': '4', 'X-Akamai-Transformed': '9 - 0 pmb=mRUM,1', 'Content-Encoding': 'gzip', 'Expires': 'Fri, 03 May 2024 12:35:52 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store', 'Pragma': 'no-cache', 'Date': 'Fri, 03 May 2024 12:35:52 GMT', 'Content-Length': '20320', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Set-Cookie': 'CP_GUTC=104.90.5.110.13750531714739752136; expires=Sat, 07-Apr-2029 12:35:52 GMT; path=/; domain=.cisco.com; secure, c_bi=41029c5a8b884756a03cfc6fe599cff5; path=/; domain=.www.cisco.com; Secure', 'Server-Timing': 'cdn-cache; desc=HIT, edge; dur=1, ak_p; desc="1714739752097_1750730094_95498522_62_6638_29_16_-";dur=1', 'Content-Security-Policy': 'upgrade-insecure-requests; frame-ancestors *.cisco.com *.jasper.com *.ciscospark.com *.ciscolive.com  http://cisco.lookbookhq.com https://cisco.lookbookhq.com testcisco.marketing.adobe.com cisco.marketing.adobe.com ciscosales.my.salesforce.com test.salesforce.com zedo.com hindustantimes.com economictimes.indiatimes.com *.webex.com *.cdw.com *.cdwg.com *.cdw.ca *.meraki-go.com http://ciscopartners.lookbookhq.com https://ciscopartners.lookbookhq.com ciscolearningsystem.com ciscocustomer.lookbookhq.com cisco.lookbookhq.com ccsmedia.com *.itquotes.ie dteonline.com ampito-cisco.com arkphire.com *.insight.com *.ccsmedia.com *.ebuyer.com *.lambda-tek.com *.storm-technologies.com *.vohkus.com *.bechtle.com *.rainfocus.com *.broadbandbuyer.com *.hardware.com shop.redpontem.com *.miro.com cisco.techdatavendors.be *.service-now.com *.thousandeyes.com *.duo.com duo.com *.umbrella.com *.pricespider.com *.mapbox.com  cdnjs.cloudflare.com https://community.cisco.com/;', 'Strict-Transport-Security': 'max-age=31536000'}
+[+] Cloudfare Detected !
+[+] Website has no credit card payment methode!
+[-]Sqli isn't available
+
+[+]TECHNOLOGIES[WWW.CISCO.COM]:
+JavaScript libraries : jQuery [version: nil]
+CDN : Akamai [version: nil]
+CMS : Adobe Experience Manager [version: nil]
+Programming languages : Java [version: nil]
+[+] Virus-total scan:
+URL: https://www.cisco.com
+SHA-256 Hash: cad0c6c3f6c6882ee513968c08e7cd702a916a7f3bbadbc511070919416adc69
+Analysis Result:
+Safe: This URL is safe
+[+] location scan :
+  The IP address of www.cisco.com is: 23.217.154.119
+
+Location: 28.6214,77.2148
+City: New Delhi
+Region: Delhi
+Country: IN
