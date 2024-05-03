@@ -3,144 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VULNapex</title>
-    <!-- <style>
+    <title>Welcome to the Web Vulnerability Scanner</title>
+    <script type="text/javascript" src="three.r124.min.js"></script>
+    <style>
         body {
+            background: linear-gradient(45deg, #030202, #662043, rgb(102, 84, 23), rgb(54, 39, 5));
+            background-size: 400% 400%;
+
+            color: gold;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            background: radial-gradient(circle, #222222 0%, #000000 100%);
-            color: white;
-        }
-        .hero {
-            padding: 50px;
             text-align: center;
+            padding-top: 100px;
+            animation: gradientAnimation 10s ease infinite;
         }
-        .hero h2 {
-            font-size: 3rem;
-            margin-bottom: 20px;
+
+      
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #000000;
         }
-        .hero p {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-        }
-        .loading-screen {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            background: rgba(0, 0, 0, 0.5);
-            color: white;
-            font-size: 2rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-            transition: opacity 0.5s ease-in-out;
-        }
-        .loading-text {
-            margin-right: 10px;
-            animation: pulse 1s ease-in-out infinite;
-        }
-        @keyframes pulse {
-            0% {
-                opacity: 0.6;
-            }
-            50% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0.6;
-            }
-        }
+
         form {
-            margin: 20px auto;
-            max-width: 400px;
-            text-align: center;
+            margin-top: 20px;
         }
+
         label {
             display: block;
             margin-bottom: 10px;
         }
+
         input[type="text"] {
-            width: 100%;
             padding: 10px;
-            margin-bottom: 20px;
+            border: 2px solid gold;
+            border-radius: 5px;
+            width: 300px;
         }
+
         button[type="submit"] {
-            background-color: #5d646a;
-            color: white;
-            border: none;
             padding: 10px 20px;
+            background-color: gold;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s ease-in-out;
         }
-        button[type="submit"]:hover {
-            background-color: #444d56;
+        .loading-screen {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(7, 22, 1, 0.8);
+        z-index: 9999;
+        text-align: center;
+    }
+
+    .loading-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    @keyframes gradientAnimation {
+        0% {
+            background-position: 0% 50%;
         }
-        .image-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 20px;
-            margin: 40px auto;
-            max-width: 1200px;
+        50% {
+            background-position: 100% 50%;
         }
-        .image-grid-item {
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(15, 15, 15, 0.1);
-            transition: transform 0.3s ease-in-out;
+        100% {
+            background-position: 0% 50%;
         }
-        .image-grid-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: transform 0.3s ease-in-out;
-        }
-        .image-grid-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 8px rgba(58, 58, 58, 0.2);
-        } -->
+    }
+    
+
     </style>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            document.getElementById('loadingScreen').style.opacity = '0';
-            setTimeout(() => {
-                document.getElementById('loadingScreen').style.display = 'none';
-            }, 500);
-        });
+        function showLoadingScreen() {
+            document.getElementById('loadingScreen').style.display = 'block';
+        }
     </script>
 </head>
 <body>
-    <div class="hero">
-        <h2>VULNapex</h2>
-        <p>We Secure security.</p>   
-    </div>
-
+    <script type="module" src="main.js"></script>
     <div class="loading-screen" id="loadingScreen">
-        <div class="loading-text">Initializing</div>
+        <div class="loading-text">Loading...</div>
     </div>
+    <h1>Welcome to the Web Vulnerability Scanner</h1>
 
-    <form action="/test_website" method="post">
+    <form action="/test_website" method="post" onsubmit="showLoadingScreen()">
         <label for="website_url">Enter Website URL:</label>
         <input type="text" id="website_url" name="website_url" required>
-        <button type="submit">Apex out!!!</button>
+        <button type="submit">Test Website</button>
     </form>
-
-    <div class="image-grid">
-        <div class="image-grid-item">
-            <img src="./image1.png" alt="Image 1">
-        </div>
-        <div class="image-grid-item">
-            <img src="./image2.png" alt="Image 2">
-        </div>
-        <div class="image-grid-item">
-            <img src="./image3.png" alt="Image 3">
-        </div>
-        <!-- Add more image grid items as needed -->
-    </div>
+    
 </body>
 </html>

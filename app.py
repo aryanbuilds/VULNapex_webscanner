@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 from urllib.parse import urlparse 
 from flask import jsonify
 from flask_cors import CORS
-from LlamaAi import consultantAI
+from AI import consultantAI
 app = Flask(__name__)
 CORS(app, resources={r"/get_report_data": {"origins": "http://localhost:3000"}})
 
