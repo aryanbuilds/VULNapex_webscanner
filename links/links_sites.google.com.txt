@@ -1,0 +1,10 @@
+[+]Links:https://accounts.google.com/v3/signin/
+[+]Links:https://sites.google.com/&amp;dsh=S-1677010626:1714737249793055&amp;flowEntry=ServiceLogin&amp;flowName=WebLiteSignIn&amp;followup=https://sites.google.com/&amp;ifkv=AaSxoQzfWmjEjg46wOn9ACI478CwL8d0xMNtOFkWASoF28Qfzwt-8Sje0M4G6lpljAVfFcL79hCdDA&amp;rhlk=js&amp;rrk=47&amp;service=jotspot
+[+]Links:ssl.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png
+[+]Links:https://sites.google.com/&amp;dsh=S-1677010626:1714737249793055&amp;flowEntry=ServiceLogin&amp;flowName=WebLiteSignIn&amp;followup=https://sites.google.com/&amp;ifkv=AaSxoQzfWmjEjg46wOn9ACI478CwL8d0xMNtOFkWASoF28Qfzwt-8Sje0M4G6lpljAVfFcL79hCdDA&amp;service=jotspot
+[+]Links:https://sites.google.com/&amp;dsh=S-1677010626:1714737249793055&amp;flowEntry=ServiceLogin&amp;flowName=WebLiteSignIn&amp;followup=https://sites.google.com/&amp;ifkv=AaSxoQzfWmjEjg46wOn9ACI478CwL8d0xMNtOFkWASoF28Qfzwt-8Sje0M4G6lpljAVfFcL79hCdDA&amp;service=jotspot
+[+]Links:https://support.google.com/accounts?p=signin_privatebrowsing&amp;hl=en-US
+[+]Links:https://sites.google.com/&amp;dsh=S-1677010626:1714737249793055&amp;flowEntry=SignUp&amp;flowName=GlifWebSignIn&amp;followup=https://sites.google.com/&amp;ifkv=AaSxoQzfWmjEjg46wOn9ACI478CwL8d0xMNtOFkWASoF28Qfzwt-8Sje0M4G6lpljAVfFcL79hCdDA&amp;service=jotspot
+[+]Links:https://support.google.com/accounts?hl=en-US&amp;p=account_iph
+[+]Links:https://accounts.google.com/TOS?loc=IN&amp;hl=en-US&amp;privacy=true
+[+]Links:https://accounts.google.com/TOS?loc=IN&amp;hl=en-US
