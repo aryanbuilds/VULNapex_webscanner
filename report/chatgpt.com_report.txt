@@ -1,0 +1,25 @@
+https://chatgpt.com
+[+]Encoded URL: https://chatgpt.com/
+[+]Allowed methods: None
+[+]NO Certificate information: 
+[+] robots.txt is available
+ [+] HTTP headers: 
+ {'Date': 'Fri, 03 May 2024 08:18:07 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'Accept-CH': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cross-Origin-Embedder-Policy': 'require-corp', 'Cross-Origin-Resource-Policy': 'same-origin', 'Origin-Agent-Cluster': '?1', 'Permissions-Policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'X-Frame-Options': 'SAMEORIGIN', 'cf-mitigated': 'challenge', 'cf-chl-out': 'RuGmnbSUcWXsywIfDluNnWu5sqERyXXeWLIL4D/FJtrx+HmVsR1B3fdhgSuyuu0JkszNSDMY9/ysk8+kw3mjfGaslSUjs8xXMqiszbpho3RVwzoVQQ6kGVLngWn8I7+psf6FBAuAIYPaF7j9PukZFg==$qQXcQxHNKiC3pEg74D9VFA==', 'Cache-Control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'Expires': 'Thu, 01 Jan 1970 00:00:01 GMT', 'Set-Cookie': '__cf_bm=9zXaZhvvC9IvpUj9tTfH2eZiPWFh5v8Urs1ztZfLQDE-1714724287-1.0.1.1-u0zGPc_mLhFvCgtQuGyX6K.Qfv160q_e4aXlcQ3NOZaEjiVlXGGgH9A.ucQnC4WnEfzTz_ZsafsMgU.sMCD81A; path=/; expires=Fri, 03-May-24 08:48:07 GMT; domain=.chatgpt.com; HttpOnly; Secure; SameSite=None', 'Vary': 'Accept-Encoding', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Cross-Origin-Opener-Policy': 'same-origin-allow-popups', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'X-Robots-Tag': 'nofollow', 'Content-Security-Policy': "default-src 'self'; script-src 'self' 'nonce-pub1f79f8ac903a5872ae5f53026d20a77c' 'unsafe-inline' 'unsafe-eval' https://*.chatgpt.com https://*.oaistatic.com https://chat.openai.com https://chatgpt.com https://jidori.g1.internal.services.openai.org https://oaistatic.com https://snc.apps.openai.com https://tcr9i.chat.openai.com https://widget.intercom.io js.intercomcdn.com js.stripe.com wss://*.chatgpt.com; script-src-elem 'unsafe-inline' auth0.openai.com challenges.cloudflare.com https://*.chatgpt.com https://*.oaistatic.com https://apis.google.com https://chat.openai.com https://chatgpt.com https://docs.google.com https://jidori.g1.internal.services.openai.org https://js.live.net/v7.2/OneDrive.js https://oaistatic.com https://snc.apps.openai.com https://tcr9i.chat.openai.com https://widget.intercom.io https://www-onepick-opensocial.googleusercontent.com js.intercomcdn.com js.stripe.com wss://*.chatgpt.com; img-src * 'self' data: https: https://docs.google.com https://drive-thirdparty.googleusercontent.com https://ssl.gstatic.com; style-src 'self' 'unsafe-inline' https://*.chatgpt.com https://*.oaistatic.com https://chat.openai.com https://chatgpt.com https://jidori.g1.internal.services.openai.org https://oaistatic.com https://snc.apps.openai.com https://tcr9i.chat.openai.com wss://*.chatgpt.com; font-src 'self' data: https://*.oaistatic.com https://fonts.gstatic.com; connect-src 'self' *.oaiusercontent.com api-iam.intercom.io api-js.mixpanel.com browser-intake-datadoghq.com fileserviceuploadsperm.blob.core.windows.net http://localhost:* https://*.chatgpt.com https://*.oaistatic.com https://chat.openai.com https://chatgpt.com https://content.googleapis.com https://docs.google.com https://events.statsigapi.net https://featuregates.org https://graph.microsoft.com https://jidori.g1.internal.services.openai.org https://oaistatic.com https://snc.apps.openai.com https://tcr9i.chat.openai.com o33249.ingest.sentry.io statsigapi.net wss://*.chatgpt.com wss://*.webpubsub.azure.com; frame-src challenges.cloudflare.com https://*.sharepoint.com https://content.googleapis.com https://docs.google.com https://onedrive.live.com js.stripe.com tcr9i.chat.openai.com; worker-src blob:; media-src blob: 'self'; report-uri https://browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pub1f79f8ac903a5872ae5f53026d20a77c&dd-evp-origin=content-security-policy&ddsource=csp-report;", 'Server': 'cloudflare', 'CF-RAY': '87ded18fafb691b8-DEL', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+[+] Cloudfare Detected !
+[+] Website has no credit card payment methode!
+[-]Sqli isn't available
+
+[+]TECHNOLOGIES[CHATGPT.COM]:
+CDN : Cloudflare [version: nil]
+[+] Virus-total scan:
+URL: https://chatgpt.com
+SHA-256 Hash: 516c22c5dba9c1ba70ca5e7f223c5987527274aa6a88c96e8eddb77fc2e4fa5e
+Analysis Result:
+Suspicious: This URL is suspicious
+[+] location scan :
+  The IP address of chatgpt.com is: 172.64.155.141
+
+Location: 37.7621,-122.3971
+City: San Francisco
+Region: California
+Country: US
