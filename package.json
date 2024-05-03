@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "vulnapex_webscanner",
+  "description": "**Comprehensive Scans:** Identifies common vulnerabilities like SQL injection, XSS, and misconfigurations.\r **Crawling and Mapping:** Generates site maps, explores all pages and assets for potential risks.\r **Input Validation Testing:** Checks input fields for injection vulnerabilities.\r **Configuration Checks:** Reviews server setups and deployment configurations.\r **Vulnerability Classification:** Rates vulnerabilities by severity for prioritized fixes.\r **Customizable Scans:** Allows tailored scans, scheduling, and recurring assessments.\r **Integration and Reporting:** Integrates with security tools, provides actionable reports.\r **Subdomain Enumeration:** Identifies subdomains for comprehensive scanning coverage.",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  
+  "scripts": {
+    "build":"npx tailwindcss -i ./templates/input.css -o ./templates/output.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
