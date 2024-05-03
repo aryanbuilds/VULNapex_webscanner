@@ -9,7 +9,7 @@ def calculate_sha256(url):
     return sha256_hash
 
 def scan_url(v_url, output_file):
-    vtotal_api_key = " " # Enter your virus total key here
+    vtotal_api_key = "6614755a9647849cf6148f1ecf6310a1dfb8bc22bc8d46d04e042b8d208d1264"
 
     # Calculate SHA-256 hash of the URL
     url_hash = calculate_sha256(v_url)

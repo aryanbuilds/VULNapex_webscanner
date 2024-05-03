@@ -7,4 +7,4 @@ flask
 lxml
 fuzzywuzzy
 prettytable
-mechanize
+llamaapi
