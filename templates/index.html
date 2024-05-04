@@ -3,34 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VUlnapex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Jersey+25+Charted&display=swap" rel="stylesheet">
+    <title>VULnapex</title>
     
     <style>
-        body {
-            background: linear-gradient(45deg, #060202a7, #322e30, rgb(16, 15, 13), rgb(255, 255, 255));
-            background-size: 400% 400%;
 
+            .jaro-infont {
+            font-family: "Jaro", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            }
+        body {
+            background: linear-gradient(45deg, #060202a7, #090808, rgb(16, 15, 13), rgb(255, 255, 255));
+            background-size: 400% 400%;
             color: rgba(129, 126, 126, 0.751);
-            font-family: Arial, sans-serif;
+            font-family: "Jaro", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 20px; /* Adjusted padding for logo positioning */
             animation: gradientAnimation 10s ease infinite;
         }
 
-      
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px; /* Adjusted width for logo */
+            height: 50px; /* Adjusted height for logo */
+        }
 
         h1 {
             font-size: 3em;
-            text-shadow: 2px 2px 4px #fffefe;
+            text-shadow: 2px 2px 4px #494747;
+        }
+        h2 {
+            font-size: 2em;
+            text-shadow: 2px 2px 4px #0b0b0b;
+        }
+        p{
+            font-size: 1em;
+            text-shadow: 1px 1px 3px #0b0b0b;
         }
 
-        form {
+        /* Grid Container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Changed to 3 columns for better alignment */
+            grid-gap: 20px; /* Increased grid gap for spacing */
             margin-top: 20px;
         }
 
+        /* Grid Item (Image) */
+        .grid-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px; /* Added border radius for rounded corners */
+            box-shadow: 0 0 10px rgba(13, 13, 13, 0.5); /* Added box shadow for depth */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effect */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .grid-item img {
+            width: 100px;
+            height: auto;
+            cursor: pointer; /* Added cursor pointer for clickable effect */
+            border-radius: 10px; /* Rounded corners for images */
+        }
+
+        /* Hover Effect */
+        .grid-item:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); /* Enhanced box shadow on hover */
+        }
+
+        /* Form styling */
+        form {
+            margin-top: 30px; /* Increased margin from the grid */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         label {
-            display: block;
             margin-bottom: 10px;
+            font-weight: bold;
         }
 
         input[type="text"] {
@@ -38,6 +101,7 @@
             border: 2px solid rgba(31, 31, 30, 0.84);
             border-radius: 5px;
             width: 300px;
+            margin-bottom: 10px;
         }
 
         button[type="submit"] {
@@ -48,38 +112,18 @@
             border-radius: 5px;
             cursor: pointer;
         }
-        .loading-screen {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(24, 30, 22, 0.8);
-        z-index: 9999;
-        text-align: center;
-    }
 
-    .loading-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    @keyframes gradientAnimation {
-        0% {
-            background-position: 0% 50%;
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
         }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-    
-
     </style>
     <script>
         function showLoadingScreen() {
@@ -88,17 +132,57 @@
     </script>
 </head>
 <body>
-    <script type="module" src="main.js"></script>
-    <div class="loading-screen" id="loadingScreen">
-        <div class="loading-text">Loading...</div>
-    </div>
-    <h1>Welcome to the VUlnapex</h1>
+
+    <img class="logo" src="{{ url_for('static', filename='blackback.png') }}" alt="Logo">
+
+    <h1>Welcome to the VULnapex</h1>
+
+    
 
     <form action="/test_website" method="post" onsubmit="showLoadingScreen()">
         <label for="website_url">Enter Website URL:</label>
         <input type="text" id="website_url" name="website_url" required>
         <button type="submit">Apex</button>
     </form>
-    
-</body>
-</html>
+
+    <h2>Securing the Digital Apex, Safeguarding Your Future.</h2> <!-- Added subheading -->
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <!-- Grid Items (Images with Links) -->
+        <div class="grid-item">
+            <a href="link1.html">
+                <img src="{{ url_for('static', filename='image1.png') }}" alt="Image 1">
+                <p>We build</p> <!-- Added title -->
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="link2.html">
+                <img src="{{ url_for('static', filename='image2.png') }}" alt="Image 2">
+                <p>We Recon</p> <!-- Added title -->
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="link3.html">
+                <img src="{{ url_for('static', filename='image3.png') }}" alt="Image 3">
+                <p>We evovle</p> <!-- Added title -->
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="link3.html">
+                <img src="{{ url_for('static', filename='image4.png') }}" alt="Image 3">
+                <p>We assign</p> <!-- Added title -->
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="link3.html">
+                <img src="{{ url_for('static', filename='image5.jpeg') }}" alt="Image 3">
+                <p>We protect</p> <!-- Added title -->
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="link3.html">
+                <img src="{{ url_for('static', filename='image6.jpeg') }}" alt="Image 3">
+                <p>We analyse</p> <!-- Added title -->
+            </a>
+        </div>
+        <div class="grid-item">
